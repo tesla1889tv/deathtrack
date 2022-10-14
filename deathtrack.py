@@ -170,7 +170,7 @@ def no_remorse():
 
 if __name__ == '__main__':
     clear_screen()
-    print('input players:')
+    print('input player(s) (comma-separated list):')
     add_players()
     while True:
         clear_screen()
