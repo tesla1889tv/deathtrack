@@ -175,6 +175,7 @@ if __name__ == '__main__':
     while True:
         clear_screen()
         print_full()
+        print('(press the number of the person who died to increment)')
         event = keyboard.read_event()
         if event.event_type == keyboard.KEY_DOWN:
             if event.name == '0':
